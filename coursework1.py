@@ -1,0 +1,12 @@
+print("what is your fathers name")
+fathers_name=input()
+print("how old is your father")
+fathers_age=input()
+print("what is your mothers name")
+mothers_name=input()
+print("how old is your mother")
+mothers_age=input()
+combined_age=int(fathers_age)+int(mothers_age)
+age_difference=int(fathers_age)-int(mothers_age)
+print("the combined age of your parents is %f") %combined_age
+print("the age difference of your parents {0}").format(age_difference)
